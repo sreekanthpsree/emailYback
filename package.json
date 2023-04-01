@@ -1,4 +1,5 @@
 {
+  "homepage": "https://https://sreekanthpsree.github.in/emaily",
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,6 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "predeploy": "gh-pages - build",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
